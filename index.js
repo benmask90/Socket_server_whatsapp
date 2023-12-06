@@ -2,7 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(process.env.PORT || 9000, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://monumental-kangaroo-23b531.netlify.app',
     }, 
 })
 
